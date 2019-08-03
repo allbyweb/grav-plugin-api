@@ -21,7 +21,6 @@ class PageCollectionResource
     public function toJson($filter = null)
     {
         $data = [];
-
         $settings = Config::instance();
 
         foreach($this->collection as $page) {

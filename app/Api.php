@@ -6,13 +6,13 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Message\ResponseInterface as Response;
 use Grav\Common\Grav;
 use GravApi\Config\Config;
-use GravApi\Middlewares\AuthMiddleWare;
+use GravApi\Middlewares\AuthMiddleware;
 use GravApi\Handlers\ConfigHandler;
 use GravApi\Handlers\PagesHandler;
 use GravApi\Handlers\PluginsHandler;
 use GravApi\Handlers\UsersHandler;
 
-require __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__.'/../vendor/autoload.php';
 
 /**
  * Class Api
